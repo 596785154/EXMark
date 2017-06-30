@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- <com.tonmx.exmark.view.ZoomImageView
+        android:id="@+id/zoom_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="matrix"
+        android:src="@drawable/camera" /> -->
+    <com.tonmx.exmark.view.MyImageView
+            android:id="@+id/my_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    <!-- <com.tonmx.exmark.view.MyButton
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Button"
+        /> -->
+
+</LinearLayout>
